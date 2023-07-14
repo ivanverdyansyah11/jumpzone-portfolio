@@ -155,6 +155,10 @@ h6 {
 
 
 /* NAVBAR */
+.navbar {
+    border-bottom: 1px solid rgba(var(--dark-color), 0.12);
+}
+
 .nav-link {
     font-size: 1rem;
     font-family: var(--urbanist-medium) !important;
@@ -235,6 +239,35 @@ h6 {
     color: rgba(var(--primary-color), 1);
 }
 /* END SECTION GUIDELINE */
+
+
+/* SECTION PRICING */
+.pricing-price {
+    font-size: 2rem;
+    font-family: var(--koulen-regular) !important;
+    color: rgba(var(--primary-color), 1);
+    line-height: 122%;
+}
+
+.button-pricing {
+    display: inline-block;
+    padding: 15px 28px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--primary-color), 1);
+    border-radius: 9999px;
+    color: rgba(var(--primary-color), 1);
+    width: 100% !important;
+    cursor: pointer;
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-pricing:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+/* END SECTION PRICING */
 
 
 /* SECTION GALLERY */
