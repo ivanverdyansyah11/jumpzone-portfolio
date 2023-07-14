@@ -132,6 +132,13 @@ h5 {
 h6 {
     color: rgba(var(--dark-color), 1);
 }
+
+.card-default {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(var(--dark-color), 0.02);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+}
 /* END COMPONENT */
 
 
@@ -155,13 +162,6 @@ h6 {
 
 
 /* SECTION ADVENTAGE */
-.card-default {
-    padding: 30px;
-    border-radius: 8px;
-    background-color: rgba(var(--dark-color), 0.02);
-    border: 1px solid rgba(var(--dark-color), 0.12);
-}
-
 .card-icon {
     width: 56px;
     height: 56px;
@@ -184,6 +184,21 @@ h6 {
     transform: translateX(3px);
 }
 /* END SECTION ADVENTAGE */
+
+
+/* SECTION ZONE */
+.zone-title.active {
+    color: rgba(var(--primary-color), 1);
+}
+
+.zone .wrapper-image {
+    overflow: hidden;
+}
+
+.zone .wrapper-image:hover > img {
+    transform: scale(1.04);
+}
+/* END SECTION ZONE */
 
 
 /* BREAKPOINT XL */
@@ -219,7 +234,7 @@ h6 {
     }
 
     .title {
-        margin-bottom: 22px;
+        margin-bottom: 16px;
     }
 }
 /* END BREAKPOINT MD */
