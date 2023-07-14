@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'koulen-regular';
+    src: url('../font/koulen/Koulen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url('../font/urbanist/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('../font/urbanist/Urbanist-Medium.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: 133, 93, 255;
+    --dark-color: 33, 33, 33;
+    --light-color: 255, 255, 255;
+
+    --koulen-regular: 'koulen-regular', Arial, Helvetica, sans-serif;
+    --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--urbanist-medium);
+    color: rgba(var(--dark-color), 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 150%;
+}
+
+p.paragraph {
+    font-size: 1rem;
+    color: rgba(var(--dark-color), 0.82);
+}
+
+p.paragraph-small {
+    font-size: 0.938rem;
+    color: rgba(var(--dark-color), 0.82);
+}
+
+/* COMPONENT STYLE */
+.button-default {
+    display: inline-block;
+    all: unset;
+    padding: 18px 30px;
+    background-color: rgba(var(--primary-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.button-reverse {
+    display: inline-block;
+    all: unset;
+    padding: 18px 30px;
+    background-color: rgba(var(--dark-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.button-reverse-small {
+    display: inline-block;
+    all: unset;
+    padding: 16px 26px;
+    background-color: rgba(var(--dark-color), 1);
+    border-radius: 9999px;
+    font-size: 0.938rem;
+    color: rgba(var(--light-color), 1);
+}
+
+.subtitle {
+    padding: 9px 15px;
+    background-color: rgba(var(--primary-color), 0.12);
+    border-radius: 9999px;
+    color: rgba(var(--primary-color), 1);
+    font-size: 0.813rem;
+}
+
+.headline {
+    line-height: 102%;
+    font-size: 4.375rem;
+    font-family: var(--koulen-regular);
+}
+
+.title {
+    font-size: 2.75rem;
+    font-family: var(--koulen-regular);
+}
+
+.headline .light,
+.title .light {
+    color: rgba(var(--primary-color), 1);
+}
+
+h5 {
+    font-size: 1.125rem;
+    color: rgba(var(--dark-color), 1);
+}
+
+h6 {
+    color: rgba(var(--dark-color), 1);
+}
+
+@media (max-width: 767.98px) {
+    p.paragraph {
+        font-size: 0.938rem;
+    }
+    
+    p.paragraph-small {
+        font-size: 0.875rem;
+    }   
+}
