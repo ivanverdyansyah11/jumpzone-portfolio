@@ -13,9 +13,32 @@
 
 </head>
 
-<body>
+<body id="home">
 
-    <p>Hello World</p>
+    {{-- NAVBAR --}}
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#home">
+                <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" alt="Logo Brand" width="175">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="">Home</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">About Us</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">Pricing</a>
+                </div>
+            </div>
+            <a href="#" class="button-reverse-small d-none d-lg-inline-block">Contact Us</a>
+        </div>
+    </nav>
+    {{-- END NAVBAR --}}
+
+    <div class="container">
+    </div>
 
     {{-- SCRIPT JS --}}
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>

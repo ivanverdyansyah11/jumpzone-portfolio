@@ -24,8 +24,9 @@
 }
 
 * {
-    font-family: var(--urbanist-medium);
+    font-family: var(--urbanist-medium) !important;
     color: rgba(var(--dark-color), 1);
+    transition: 250ms !important;
 }
 
 h1,
@@ -52,6 +53,7 @@ p.paragraph-small {
 .button-default {
     display: inline-block;
     all: unset;
+    cursor: pointer;
     padding: 18px 30px;
     background-color: rgba(var(--primary-color), 1);
     border-radius: 9999px;
@@ -62,6 +64,7 @@ p.paragraph-small {
 .button-reverse {
     display: inline-block;
     all: unset;
+    cursor: pointer;
     padding: 18px 30px;
     background-color: rgba(var(--dark-color), 1);
     border-radius: 9999px;
@@ -72,11 +75,18 @@ p.paragraph-small {
 .button-reverse-small {
     display: inline-block;
     all: unset;
+    cursor: pointer;
     padding: 16px 26px;
     background-color: rgba(var(--dark-color), 1);
     border-radius: 9999px;
     font-size: 0.938rem;
     color: rgba(var(--light-color), 1);
+}
+
+.button-defaul:hover,
+.button-reverse:hover,
+.button-reverse-small:hover {
+    opacity: 0.94;
 }
 
 .subtitle {
@@ -111,9 +121,36 @@ h5 {
 h6 {
     color: rgba(var(--dark-color), 1);
 }
+/* END COMPONENT */
+
+
+/* NAVBAR */
+.nav-link {
+    font-size: 1rem;
+    font-family: var(--urbanist-medium) !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: rgba(var(--primary-color), 1) !important;
+}
+/* END NAVBAR */
 
 @media (max-width: 767.98px) {
-    p.paragraph {
+    .headline {
+        font-size: 3.75rem;
+    }
+    
+    .title {
+        font-size: 2.25rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p.paragraph,
+    h6 {
         font-size: 0.938rem;
     }
     
