@@ -217,6 +217,22 @@ h6 {
 /* END SECTION ABOUT */
 
 
+/* SECTION GUIDELINE */
+.guideline .card-icon {
+    min-width: 52px !important;
+    max-width: 52px !important;
+    min-height: 52px !important;
+    max-height: 52px !important;
+}
+
+.guide-number {
+    font-size: 1.625rem;
+    font-family: var(--koulen-regular) !important;
+    color: rgba(var(--primary-color), 1);
+}
+/* END SECTION GUIDELINE */
+
+
 /* BREAKPOINT XL */
 @media (max-width: 1399.98px) {
     .headline {

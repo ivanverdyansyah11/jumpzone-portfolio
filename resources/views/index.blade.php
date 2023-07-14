@@ -301,6 +301,183 @@
                 </div>
             </section>
             {{-- END ABOUT SECTION --}}
+
+
+            {{-- GUIDELINE SECTION --}}
+            <section class="guideline section-gap" id="guideline">
+                <div class="row align-items-end justify-content-between" style="margin-bottom: 56px">
+                    <div class="col-lg-6">
+                        <h2 class="title"><span class="light">Safety First, Fun Always</span>, Our Commitment at
+                            JumpZone</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Our Safety Guidelines are designed to create a secure environment where
+                            jumpers of all ages can enjoy the excitement of our trampoline area with confidence.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">1</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Age and Height Restrictions</h6>
+                                <p class="paragraph-small">Ensure that jumpers meet the
+                                    minimum age and height requirements to participate in the trampoline activities.
+                                    This
+                                    helps ensure their safety and reduces the risk of accidents or injuries.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none mt-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">2</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Proper Attire</h6>
+                                <p class="paragraph-small">Encourage jumpers to wear comfortable clothing that allows
+                                    for ease of movement. Non-slip socks should be worn to provide traction on the
+                                    trampoline surface and minimize the risk of slipping.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">3</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">One Jumper at a Time</h6>
+                                <p class="paragraph-small">Emphasize the importance of one person jumping on a
+                                    trampoline bed at a time to avoid collisions or accidents. Jumpers should wait their
+                                    turn and not overcrowd the trampoline area.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-flex d-md-none d-lg-flex">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">4</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">No Flips or Dangerous Tricks</h6>
+                                <p class="paragraph-small">Prohibit flips, somersaults, or any other dangerous tricks
+                                    that could lead to injury. Encourage jumpers to engage in safe and controlled
+                                    movements, such as bouncing or jumping in place.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">5</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Supervision for Children</h6>
+                                <p class="paragraph-small">Children should be supervised by a responsible adult at all
+                                    times to ensure their safety. Parents or guardians should actively monitor their
+                                    children's activities on the trampolines and enforce the safety guidelines.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">6</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Follow Staff Instructions</h6>
+                                <p class="paragraph-small">Instruct jumpers to listen to and follow the instructions
+                                    provided by the staff members. Staff members are trained to enforce safety rules and
+                                    guidelines and can provide assistance or address any safety concerns.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-4 d-none d-md-inline-block">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">2</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Proper Attire</h6>
+                                <p class="paragraph-small">Encourage jumpers to wear comfortable clothing that allows
+                                    for ease of movement. Non-slip socks should be worn to provide traction on the
+                                    trampoline surface and minimize the risk of slipping.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">4</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">No Flips or Dangerous Tricks</h6>
+                                <p class="paragraph-small">Prohibit flips, somersaults, or any other dangerous tricks
+                                    that could lead to injury. Encourage jumpers to engage in safe and controlled
+                                    movements, such as bouncing or jumping in place.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-none d-lg-flex">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">5</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Supervision for Children</h6>
+                                <p class="paragraph-small">Children should be supervised by a responsible adult at all
+                                    times to ensure their safety. Parents or guardians should actively monitor their
+                                    children's activities on the trampolines and enforce the safety guidelines.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">6</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Follow Staff Instructions</h6>
+                                <p class="paragraph-small">Instruct jumpers to listen to and follow the instructions
+                                    provided by the staff members. Staff members are trained to enforce safety rules and
+                                    guidelines and can provide assistance or address any safety concerns.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-4 d-none d-lg-inline-block">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">3</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">One Jumper at a Time</h6>
+                                <p class="paragraph-small">Emphasize the importance of one person jumping on a
+                                    trampoline bed at a time to avoid collisions or accidents. Jumpers should wait their
+                                    turn and not overcrowd the trampoline area.</p>
+                            </div>
+                        </div>
+
+                        <div class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <h4 class="guide-number">6</h4>
+                            </div>
+                            <div class="wrapper">
+                                <h6 style="margin-bottom: 4px;">Follow Staff Instructions</h6>
+                                <p class="paragraph-small">Instruct jumpers to listen to and follow the instructions
+                                    provided by the staff members. Staff members are trained to enforce safety rules and
+                                    guidelines and can provide assistance or address any safety concerns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END GUIDELINE SECTION --}}
         </div>
     </main>
 
