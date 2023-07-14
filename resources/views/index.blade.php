@@ -13,7 +13,7 @@
 
 </head>
 
-<body id="home" style="min-height: 1000px">
+<body id="home" style="padding-bottom: 100px">
 
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg py-3 position-relative">
@@ -39,6 +39,8 @@
 
     <main>
         <div class="container">
+
+            {{-- HERO SECTION --}}
             <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0" id="hero">
                 <div class="row align-items-center">
                     <div
@@ -74,6 +76,99 @@
                     </div>
                 </div>
             </section>
+            {{-- END HERO SECTION --}}
+
+
+            {{-- ADVENTAGE SECTION --}}
+            <section class="adventage section-gap" id="adventage">
+                <div class="row align-items-end justify-content-between" style="margin-bottom: 56px">
+                    <div class="col-lg-6">
+                        <h2 class="title">Elevate Your Fun, Discover the <span class="light">Advantages of
+                                JumpZone</span></h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Discover the many benefits of JumpZone's trampoline wonderland. Our
+                            trampolines are engineered to deliver maximum bounce, ensuring an exhilarating and
+                            gravity-defying experience.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-icon d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-1.svg') }}" class="img-fluid"
+                                    alt="Adventage Image">
+                            </div>
+                            <h6 style="margin-bottom: 4px;">Active Fun for All Ages</h6>
+                            <p class="paragraph-small" style="margin-bottom: 16px;">JumpZone offers an inclusive and
+                                exhilarating experience for
+                                jumpers of all ages.</p>
+                            <button class="card-link d-flex align-items-center gap-2 p-0">
+                                More Detail
+                                <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
+                                    alt="Link Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-icon d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-2.svg') }}" class="img-fluid"
+                                    alt="Adventage Image">
+                            </div>
+                            <h6 style="margin-bottom: 4px;">Safety First</h6>
+                            <p class="paragraph-small" style="margin-bottom: 16px;">We prioritize the safety of our
+                                jumpers. Our trampolines are carefully maintained.</p>
+                            <button class="card-link d-flex align-items-center gap-2 p-0">
+                                More Detail
+                                <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
+                                    alt="Link Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                        <div class="card-default">
+                            <div class="card-icon d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-3.svg') }}" class="img-fluid"
+                                    alt="Adventage Image">
+                            </div>
+                            <h6 style="margin-bottom: 4px;">Variety of Attractions</h6>
+                            <p class="paragraph-small" style="margin-bottom: 16px;">We offer a wide range of
+                                attractions to keep you entertained and engaged throughout your visit.</p>
+                            <button class="card-link d-flex align-items-center gap-2 p-0">
+                                More Detail
+                                <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
+                                    alt="Link Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card-default">
+                            <div class="card-icon d-flex justify-content-center align-items-center"
+                                style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-4.svg') }}" class="img-fluid"
+                                    alt="Adventage Image">
+                            </div>
+                            <h6 style="margin-bottom: 4px;">Fitness and Fun Combined</h6>
+                            <p class="paragraph-small" style="margin-bottom: 16px;">Jumping on trampolines isn't just
+                                fun it's also a fantastic way to stay active and fit.</p>
+                            <button class="card-link d-flex align-items-center gap-2 p-0">
+                                More Detail
+                                <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
+                                    alt="Link Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END ADVENTAGE SECTION --}}
         </div>
     </main>
 
