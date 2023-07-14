@@ -55,6 +55,10 @@ section.section-gap {
     margin-top: 122px;
 }
 
+.row.row-gap {
+    margin-bottom: 56px
+}
+
 .button-default {
     display: inline-block;
     width: fit-content;
@@ -139,6 +143,14 @@ h6 {
     background-color: rgba(var(--dark-color), 0.02);
     border: 1px solid rgba(var(--dark-color), 0.12);
 }
+
+.wrapper-image {
+    overflow: hidden;
+}
+
+.wrapper-image:hover > img {
+    transform: scale(1.04);
+}
 /* END COMPONENT */
 
 
@@ -190,14 +202,6 @@ h6 {
 .zone-title.active {
     color: rgba(var(--primary-color), 1);
 }
-
-.zone .wrapper-image {
-    overflow: hidden;
-}
-
-.zone .wrapper-image:hover > img {
-    transform: scale(1.04);
-}
 /* END SECTION ZONE */
 
 
@@ -231,6 +235,13 @@ h6 {
     color: rgba(var(--primary-color), 1);
 }
 /* END SECTION GUIDELINE */
+
+
+/* SECTION GALLERY */
+.gallery img {
+    border-radius: 8px;
+}
+/* END SECTION GALLERY */
 
 
 /* BREAKPOINT XL */
@@ -267,6 +278,10 @@ h6 {
 
     .title {
         margin-bottom: 16px;
+    }
+
+    .row.row-gap {
+        margin-bottom: 42px
     }
 }
 /* END BREAKPOINT MD */

@@ -81,7 +81,7 @@
 
             {{-- ADVENTAGE SECTION --}}
             <section class="adventage section-gap" id="adventage">
-                <div class="row align-items-end justify-content-between" style="margin-bottom: 56px">
+                <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
                         <h2 class="title">Elevate Your Fun, Discover the <span class="light">Advantages of
                                 JumpZone</span></h2>
@@ -173,7 +173,7 @@
 
             {{-- ZONE SECTION --}}
             <section class="zone section-gap" id="zone">
-                <div class="row align-items-end justify-content-between" style="margin-bottom: 56px">
+                <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
                         <h2 class="title">Jump into the <span class="light">Ultimate Trampoline Adventure</span> at
                             JumpZone</h2>
@@ -260,7 +260,7 @@
 
             {{-- ABOUT SECTION --}}
             <section class="zone section-gap" id="zone">
-                <div class="row align-items-center justify-content-between" style="margin-bottom: 56px">
+                <div class="row align-items-center justify-content-between row-gap">
                     <div class="col-5 ps-xxl-5 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100"
                             alt="About Banner">
@@ -305,7 +305,7 @@
 
             {{-- GUIDELINE SECTION --}}
             <section class="guideline section-gap" id="guideline">
-                <div class="row align-items-end justify-content-between" style="margin-bottom: 56px">
+                <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
                         <h2 class="title"><span class="light">Safety First, Fun Always</span>, Our Commitment at
                             JumpZone</h2>
@@ -478,6 +478,81 @@
                 </div>
             </section>
             {{-- END GUIDELINE SECTION --}}
+
+
+            {{-- GALLERY SECTION --}}
+            <section class="gallery section-gap" id="gallery">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6">
+                        <h2 class="title">JumpZone in Action, <span class="light">Explore the
+                                Excitement in</span> Our
+                            Gallery</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Get a front-row seat to the excitement and exhilaration as you browse
+                            through a collection of action-packed photos capturing the essence of our trampoline area.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8 col-lg-6 d-none d-md-inline-block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="wrapper-image rounded" style="height: max-content;">
+                                    <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
+                                        class="image-1 img-fluid w-100" alt="Gallery Image">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="wrapper-image rounded">
+                                    <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
+                                        class="image-2 img-fluid w-100" alt="Gallery Image">
+                                </div>
+                                <div class="wrapper-image rounded mt-4">
+                                    <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}"
+                                        class="image-5 img-fluid w-100" alt="Gallery Image">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="wrapper-image rounded mt-4">
+                                    <img src="{{ asset('assets/img/gallery/gallery-8.svg') }}"
+                                        class="image-8 img-fluid w-100" alt="Gallery Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="wrapper-image rounded">
+                            <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
+                                class="image-3 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4">
+                            <img src="{{ asset('assets/img/gallery/gallery-6.svg') }}"
+                                class="image-6 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4">
+                            <img src="{{ asset('assets/img/gallery/gallery-9.svg') }}"
+                                class="image-9 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                    </div>
+                    <div class="col-3 d-none d-lg-inline-block">
+                        <div class="wrapper-image rounded">
+                            <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}"
+                                class="image-4 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4">
+                            <img src="{{ asset('assets/img/gallery/gallery-7.svg') }}"
+                                class="image-7 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4">
+                            <img src="{{ asset('assets/img/gallery/gallery-10.svg') }}"
+                                class="image-10 img-fluid w-100" alt="Gallery Image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END GALLERY SECTION --}}
         </div>
     </main>
 
