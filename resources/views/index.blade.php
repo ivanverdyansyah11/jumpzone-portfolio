@@ -44,7 +44,7 @@
             <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0" id="hero">
                 <div class="row align-items-center">
                     <div
-                        class="col-lg-7 col-xxl-6 pe-xl-5 pe-xxl-0 text-md-center text-lg-start d-flex flex-column align-items-md-center align-items-lg-start">
+                        class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0 text-md-center text-lg-start d-flex flex-column align-items-md-center align-items-lg-start">
                         <p class="subtitle" style="margin-bottom: 20px;">Jump into Fun, One Bounce at a Time</p>
                         <h1 class="headline" style="margin-bottom: 22px;">Reach for the Skies at <span class="light">
                                 JumpZone</span>, The Ultimate
@@ -57,7 +57,7 @@
                                 sensation of soaring through the air. With our state-of-the-art trampolines, foam pits,
                                 and
                                 thrilling attractions, JumpZone offers a trampoline experience like no other.</p>
-                            <p class="paragraph d-none d-md-inline-block">Get ready to bounce, jump, and laugh as you
+                            <p class="paragraph">Get ready to bounce, jump, and laugh as you
                                 explore our
                                 expansive
                                 trampoline area, filled with endless possibilities for fun and adventure.</p>
@@ -256,6 +256,51 @@
                 </div>
             </section>
             {{-- ZONE SECTION --}}
+
+
+            {{-- ABOUT SECTION --}}
+            <section class="zone section-gap" id="zone">
+                <div class="row align-items-center justify-content-between" style="margin-bottom: 56px">
+                    <div class="col-5 ps-xxl-5 d-none d-lg-inline-block">
+                        <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100"
+                            alt="About Banner">
+                    </div>
+
+                    <div class="offset-xxl-1 col-lg-7 col-xxl-6 ps-lg-5 ps-xxl-0">
+                        <h2 class="title" style="margin-bottom: 16px;">Discover the <span class="light">Ultimate
+                                Trampoline Experience</span> at
+                            JumpZone</h2>
+                        <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 36px;">
+                            <p class="paragraph">The premier destination for thrilling trampoline adventures. At
+                                JumpZone, we believe in creating an environment where fun knows no limits and
+                                imaginations soar. With our state-of-the-art trampoline area, dedicated staff, and
+                                commitment to safety, we provide an unparalleled experience that will leave you smiling,
+                                laughing, and craving for more.</p>
+                            <p class="paragraph d-none d-md-inline-block">Join us at JumpZone and let us take you on a
+                                gravity-defying journey filled with excitement, energy, and unforgettable memories.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                                <h3 class="fact-value">24+</h3>
+                                <p class="fact-caption">Total Lane Available</p>
+                            </div>
+                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                                <h3 class="fact-value">138+</h3>
+                                <p class="fact-caption">Total Bowling Ball</p>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h3 class="fact-value">06+</h3>
+                                <p class="fact-caption">Total Branch Places</p>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h3 class="fact-value">562+</h3>
+                                <p class="fact-caption">Satisfied customers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END ABOUT SECTION --}}
         </div>
     </main>
 

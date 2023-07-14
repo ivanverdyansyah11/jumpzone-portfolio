@@ -201,6 +201,22 @@ h6 {
 /* END SECTION ZONE */
 
 
+/* SECTION ABOUT */
+.fact-value {
+    color: rgba(var(--primary-color), 1);
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+    line-height: 120%;
+    font-family: var(--koulen-regular) !important;
+}
+
+.fact-caption {
+    color: rgba(var(--dark-color), 0.52);
+    font-size: 0.875rem;
+}
+/* END SECTION ABOUT */
+
+
 /* BREAKPOINT XL */
 @media (max-width: 1399.98px) {
     .headline {
