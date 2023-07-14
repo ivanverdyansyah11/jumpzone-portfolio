@@ -8,6 +8,7 @@
     <title>JumpZone | Trampoline Zone</title>
 
     {{-- STYLE CSS --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
@@ -704,12 +705,150 @@
             </section>
             {{-- END PRICING SECTION --}}
 
+
+            {{-- TESTIMONI SECTION --}}
+            <section class="testimoni section-gap" id="testimoni">
+                <div class="row align-items-center justify-content-between row-gap">
+                    <div class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0">
+                        <h2 class="title" style="margin-bottom: 16px;">JumpZone Delights, <span class="light">Hear
+                                What Our Jumpers</span> Have
+                            to Say</h2>
+                        <p class="paragraph" style="margin-bottom: 36px">Discover the real experiences and heartfelt
+                            stories of our visitors at
+                            JumpZone through our Testimonial section. Dive into a world of bouncing joy as you read the
+                            accounts of jumpers who have experienced the excitement and exhilaration firsthand.</p>
+
+                        <div class="wrapper position-relative">
+                            <div class="swiper mySwiper position-relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="testimoni-profile d-flex align-items-center gap-3"
+                                                style="margin-bottom: 14px;">
+                                                <div class="wrapper-profile">
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                        class="img-fluid" alt="Testimoni Profile Image"
+                                                        style="border-radius: 2px;">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">Sarah
+                                                        Thompson
+                                                    </h6>
+                                                    <p class="profile-position">Parent</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“JumpZone provided an incredible trampoline
+                                                experience for my
+                                                family. We had a blast bouncing together and creating unforgettable
+                                                memories.”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="testimoni-profile d-flex align-items-center gap-3"
+                                                style="margin-bottom: 14px;">
+                                                <div class="wrapper-profile">
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-2.svg') }}"
+                                                        class="img-fluid" alt="Testimoni Profile Image"
+                                                        style="border-radius: 2px;">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">David Johnson
+                                                    </h6>
+                                                    <p class="profile-position">Adventure Enthusiast</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“As a regular visitor to JumpZone, I can
+                                                confidently say that it's the ultimate trampoline paradise. The staff
+                                                are friendly, the facilities are top-notch.”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="testimoni-profile d-flex align-items-center gap-3"
+                                                style="margin-bottom: 14px;">
+                                                <div class="wrapper-profile">
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                        class="img-fluid" alt="Testimoni Profile Image"
+                                                        style="border-radius: 2px;">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">Sarah
+                                                        Thompson
+                                                    </h6>
+                                                    <p class="profile-position">Parent</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“JumpZone provided an incredible trampoline
+                                                experience for my
+                                                family. We had a blast bouncing together and creating unforgettable
+                                                memories.”</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card-default">
+                                            <div class="testimoni-profile d-flex align-items-center gap-3"
+                                                style="margin-bottom: 14px;">
+                                                <div class="wrapper-profile">
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-2.svg') }}"
+                                                        class="img-fluid" alt="Testimoni Profile Image"
+                                                        style="border-radius: 2px;">
+                                                </div>
+                                                <div class="wrapper">
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">David Johnson
+                                                    </h6>
+                                                    <p class="profile-position">Adventure Enthusiast</p>
+                                                </div>
+                                            </div>
+                                            <p class="paragraph-small">“As a regular visitor to JumpZone, I can
+                                                confidently say that it's the ultimate trampoline paradise. The staff
+                                                are friendly, the facilities are top-notch.”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination position-absolute"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="offset-xxl-1 col-5 d-none d-lg-inline-block">
+                        <img src="{{ asset('assets/img/banner/testimoni-banner.svg') }}" class="img-fluid w-100"
+                            alt="Testimoni Banner">
+                    </div>
+                </div>
+            </section>
+            {{-- END ABOUT SECTION --}}
+
         </div>
     </main>
 
     {{-- SCRIPT JS --}}
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                }
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>

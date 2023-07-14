@@ -277,6 +277,48 @@ h6 {
 /* END SECTION GALLERY */
 
 
+/* SECTION TESTIMONI */
+.testimoni .card-default {
+    padding: 22px !important;
+}
+.wrapper-profile {
+    padding: 6px;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 3px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+.profile-name {
+    color: rgba(var(--primary-color), 1);
+}
+
+.profile-position {
+    color: rgba(var(--dark-color), 1);
+    font-size: 0.875rem;
+}
+
+.swiper-pagination {
+    top: 0;
+    left: 0 !important;
+    transform: translateY(40px);
+    z-index: 9999 !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(var(--dark-color), 0.52) !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 2px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 28px !important;
+    background-color: rgba(var(--dark-color), 0.52) !important;
+    border-radius: 6px;
+}
+/* END SECTION TESTIMONI */
+
+
 /* BREAKPOINT XL */
 @media (max-width: 1399.98px) {
     .headline {
