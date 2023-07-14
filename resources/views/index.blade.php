@@ -820,6 +820,152 @@
             </section>
             {{-- END ABOUT SECTION --}}
 
+
+            {{-- FAQ SECTION --}}
+            <section class="faq section-gap" id="faq">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6">
+                        <h2 class="title"><span class="light">JumpZone Info Hub</span>, Find Answers to Your
+                            <span class="light">Trampoline Queries</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Where we address common questions and provide helpful answers to ensure
+                            you have all the information you need for an amazing trampoline experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <h6>What are the age restrictions for JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <h6>Do I need to make a reservation in advance?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="true" aria-controls="collapseThree">
+                                        <h6>What should I wear to JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <h6>Are there any safety measures in place at JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <h6>Can I host a birthday party or group event at JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                                        aria-controls="collapseSix">
+                                        <h6>Can I bring my own food and drinks to JumpZone?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="paragraph-small">Absolutely! JumpZone is the perfect venue for
+                                            birthday parties, team-building events, and group outings. We offer special
+                                            party packages and dedicated party rooms to make your celebration a
+                                            memorable one.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END FAQ SECTION --}}
+
         </div>
     </main>
 

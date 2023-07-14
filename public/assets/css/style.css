@@ -319,6 +319,13 @@ h6 {
 /* END SECTION TESTIMONI */
 
 
+/* SECTION FAQ */
+.accordion-button {
+    padding: 24px !important;
+    background-color: rgba(var(--dark-color), 0.02) !important;
+}
+/* END SECTION FAQ */
+
 /* BREAKPOINT XL */
 @media (max-width: 1399.98px) {
     .headline {
