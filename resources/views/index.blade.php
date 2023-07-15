@@ -43,8 +43,7 @@
             {{-- HERO SECTION --}}
             <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0" id="hero">
                 <div class="row align-items-center">
-                    <div
-                        class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0 text-md-center text-lg-start d-flex flex-column align-items-md-center align-items-lg-start">
+                    <div class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0">
                         <p class="subtitle" style="margin-bottom: 20px;">Jump into Fun, One Bounce at a Time</p>
                         <h1 class="headline" style="margin-bottom: 22px;">Reach for the Skies at <span class="light">
                                 JumpZone</span>, The Ultimate

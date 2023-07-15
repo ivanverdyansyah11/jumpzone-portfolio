@@ -324,6 +324,30 @@ h6 {
     padding: 24px !important;
     background-color: rgba(var(--dark-color), 0.02) !important;
 }
+
+.accordion-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: rgba(var(--light-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    background-image: url('../img/icon/arrow-down-icon.svg');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .accordion-button:not(.collapsed)::before {
+} */
+
+.accordion-button::after {
+    display: none;
+}
 /* END SECTION FAQ */
 
 
