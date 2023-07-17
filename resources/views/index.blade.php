@@ -28,12 +28,13 @@
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="">Home</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">About Us</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">Pricing</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="#home">Home</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#about">About Us</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#pricing">Pricing</a>
                 </div>
             </div>
-            <a href="#" class="button-reverse-small d-none d-lg-inline-block">Contact Us</a>
+            <a href="https://wa.me/6281234567890" target="_blank"
+                class="button-reverse-small d-none d-lg-inline-block">Contact Us</a>
         </div>
     </nav>
     {{-- END NAVBAR --}}
@@ -62,8 +63,8 @@
                                 trampoline area, filled with endless possibilities for fun and adventure.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-center">
-                            <a href="#" class="button-default">Explore Now</a>
-                            <a href="#" class="button-reverse d-flex align-items-center gap-2">
+                            <a href="#about" class="button-default">Explore Now</a>
+                            <a href="#pricing" class="button-reverse d-flex align-items-center gap-2">
                                 Booking Now
                                 <img src="{{ asset('assets/img/icon/button-arrow-icon.svg') }}" alt="Button Arrow Icon">
                             </a>
@@ -1138,15 +1139,18 @@
                             destination for trampoline
                             enthusiasts of all ages.</p>
                         <div class="wrapper-sosmed d-flex gap-2">
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://id-id.facebook.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
                                     alt="Facebook Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://www.whatsapp.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
                                     alt="Whatsapp Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://twitter.com/?lang=id" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
                                     alt="Twitter Icon" width="16">
                             </a>
@@ -1174,9 +1178,9 @@
                     <div class="col-6 col-md-3 col-lg-2">
                         <h6 style="margin-bottom: 20px">Help & guide</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="" class="paragraph-small">Terms & Conditions</a>
-                            <a href="" class="paragraph-small">Privacy Policy</a>
-                            <a href="" class="paragraph-small">Contact Us</a>
+                            <a href="#" class="paragraph-small">Terms & Conditions</a>
+                            <a href="#" class="paragraph-small">Privacy Policy</a>
+                            <a href="#" class="paragraph-small">Contact Us</a>
                         </div>
                     </div>
                 </div>
