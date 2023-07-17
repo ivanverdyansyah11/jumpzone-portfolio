@@ -923,21 +923,20 @@
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
                                                 <div class="wrapper-profile">
-                                                    <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-3.svg') }}"
                                                         class="img-fluid" alt="Testimoni Profile Image"
                                                         style="border-radius: 2px;">
                                                 </div>
                                                 <div class="wrapper">
-                                                    <h6 class="profile-name" style="margin-bottom: 2px;">Sarah
-                                                        Thompson
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">Olivia
+                                                        Charlotte
                                                     </h6>
                                                     <p class="profile-position">Parent</p>
                                                 </div>
                                             </div>
-                                            <p class="paragraph-small">“JumpZone provided an incredible trampoline
-                                                experience for my
-                                                family. We had a blast bouncing together and creating unforgettable
-                                                memories.”</p>
+                                            <p class="paragraph-small">“Jumpzone has been an incredible experience! The
+                                                facility is clean and safe, and my
+                                                children always have a blast jumping on the trampolines.”</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -945,19 +944,19 @@
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
                                                 <div class="wrapper-profile">
-                                                    <img src="{{ asset('assets/img/testimoni/testimoni-2.svg') }}"
+                                                    <img src="{{ asset('assets/img/testimoni/testimoni-4.svg') }}"
                                                         class="img-fluid" alt="Testimoni Profile Image"
                                                         style="border-radius: 2px;">
                                                 </div>
                                                 <div class="wrapper">
-                                                    <h6 class="profile-name" style="margin-bottom: 2px;">David Johnson
+                                                    <h6 class="profile-name" style="margin-bottom: 2px;">Mark Johnson
                                                     </h6>
-                                                    <p class="profile-position">Adventure Enthusiast</p>
+                                                    <p class="profile-position">Fitness Enthusiast</p>
                                                 </div>
                                             </div>
-                                            <p class="paragraph-small">“As a regular visitor to JumpZone, I can
-                                                confidently say that it's the ultimate trampoline paradise. The staff
-                                                are friendly, the facilities are top-notch.”</p>
+                                            <p class="paragraph-small">“As a fitness enthusiast, I love visiting
+                                                Jumpzone to get a fun and exhilarating workout. The variety of
+                                                trampoline activities.”</p>
                                         </div>
                                     </div>
                                 </div>

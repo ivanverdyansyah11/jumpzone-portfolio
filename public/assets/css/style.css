@@ -207,7 +207,8 @@ h6 {
     color: rgba(var(--primary-color), 1);
 }
 
-.zone-top {
+.zone-top,
+.zone-bottom {
     cursor: pointer;
 }
 /* END SECTION ZONE */
