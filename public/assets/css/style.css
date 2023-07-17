@@ -206,6 +206,10 @@ h6 {
 .zone-title.active {
     color: rgba(var(--primary-color), 1);
 }
+
+.zone-top {
+    cursor: pointer;
+}
 /* END SECTION ZONE */
 
 

@@ -288,14 +288,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0 zone-top zone-1">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-1.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title">Open Bounce Zone</h6>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column zone-2 zone-top zone-2">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-2.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
@@ -303,10 +303,12 @@
                         <h6 class="zone-title active">Foam Pit Zone</h6>
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0">
-                        <div class="card-default d-flex align-items-end" style="height: 100%">
+                        <div class="card-default card-top d-flex align-items-end" style="height: 100%">
                             <div class="wrapper">
-                                <h5 style="margin-bottom: 6px">Foam Pit Zone</h5>
-                                <p class="paragraph-small" style="margin-bottom: 16px">Dive into a sea of soft foam
+                                <h5 class="zone-top-title" style="margin-bottom: 6px">Foam Pit Zone</h5>
+                                <p class="paragraph-small zone-top-description" style="margin-bottom: 16px">Dive into
+                                    a
+                                    sea of soft foam
                                     cubes in the Foam Pit Zone.
                                     Jump,
                                     flip, and experience the sensation of weightlessness as you launch yourself into the
@@ -314,7 +316,8 @@
                                     and land safely in the foam-filled pit. It's an exhilarating and cushioned landing
                                     that
                                     adds an extra element of excitement to your trampoline experience.</p>
-                                <button class="card-link d-flex align-items-center gap-2 p-0">
+                                <button class="card-link d-flex align-items-center gap-2 p-0" data-bs-toggle="modal"
+                                    data-bs-target="#zonaTop">
                                     More Detail
                                     <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
                                         alt="Link Arrow Icon">
@@ -324,16 +327,44 @@
                     </div>
                 </div>
 
+                <div class="modal fade" id="zonaTop" tabindex="-1" aria-labelledby="zonaTopLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-top-title pricing-price">Foam Pit Zone</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="paragraph-small modal-top-description">Dive into a sea of soft foam cubes in
+                                    the
+                                    Foam Pit Zone.
+                                    Jump, flip, and experience the sensation of weightlessness as you launch yourself
+                                    into the air and land safely in the foam-filled pit. It's an exhilarating and
+                                    cushioned landing that adds an extra element of excitement to your trampoline
+                                    experience.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button-reverse-small d-flex align-items-center gap-2"
+                                    data-bs-dismiss="modal">Close Modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row mt-4">
                     <div class="col-lg-6 mt-4 mt-lg-0 order-last order-lg-1">
-                        <div class="card-default d-flex align-items-end" style="height: 100%">
+                        <div class="card-default card-bottom d-flex align-items-end" style="height: 100%">
                             <div class="wrapper">
-                                <h5 style="margin-bottom: 6px">Dodgeball Arena</h5>
-                                <p class="paragraph-small" style="margin-bottom: 16px">Get ready to unleash your
+                                <h5 class="zone-bottom-title" style="margin-bottom: 6px">Dodgeball Arena</h5>
+                                <p class="paragraph-small zone-bottom-description" style="margin-bottom: 16px">Get
+                                    ready to unleash your
                                     competitive side in the Dodgeball Arena. Gather your friends, form teams, and engage
                                     in epic dodgeball battles on the trampolines. Jump, dodge, and throw with precision
                                     as you enjoy the fast-paced and high-flying action of trampoline dodgeball.</p>
-                                <button class="card-link d-flex align-items-center gap-2 p-0">
+                                <button class="card-link d-flex align-items-center gap-2 p-0" data-bs-toggle="modal"
+                                    data-bs-target="#zonaBottom">
                                     More Detail
                                     <img src="{{ asset('assets/img/icon/link-arrow-icon.svg') }}" class="img-fluid"
                                         alt="Link Arrow Icon">
@@ -341,19 +372,42 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-2 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-2 mb-4 mb-md-0 zone-bottom zone-1">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-3.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title active">Dodgeball Arena</h6>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-3">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-3 zone-bottom zone-2">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-4.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title">Slam Dunk Zone</h6>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="zonaBottom" tabindex="-1" aria-labelledby="zonaBottomLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-bottom-title pricing-price">Dodgeball Arena</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="paragraph-small modal-bottom-description">Get ready to unleash your
+                                    competitive side in the Dodgeball Arena. Gather your friends, form teams, and engage
+                                    in epic dodgeball battles on the trampolines. Jump, dodge, and throw with precision
+                                    as you enjoy the fast-paced and high-flying action of trampoline dodgeball.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button-reverse-small d-flex align-items-center gap-2"
+                                    data-bs-dismiss="modal">Close Modal</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
