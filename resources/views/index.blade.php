@@ -1024,8 +1024,9 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small">While walk-ins are welcome, we recommend making a
+                                            reservation to secure your preferred jumping time, especially during peak
+                                            hours and weekends.
                                         </p>
                                     </div>
                                 </div>
@@ -1044,8 +1045,9 @@
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small">We recommend wearing comfortable clothing, such as
+                                            athletic attire, and non-slip socks. Avoid loose jewelry or accessories that
+                                            may pose a safety hazard.
                                         </p>
                                     </div>
                                 </div>
@@ -1066,8 +1068,10 @@
                                 <div id="collapseFour" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small">Absolutely! We prioritize safety and have
+                                            implemented various measures, including trained staff, safety guidelines,
+                                            and regular equipment maintenance to ensure a secure environment for all
+                                            jumpers.
                                         </p>
                                     </div>
                                 </div>
@@ -1086,8 +1090,10 @@
                                 <div id="collapseFive" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="paragraph-small">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small">Absolutely! JumpZone is the perfect venue for
+                                            birthday parties, team-building events, and group outings. We offer special
+                                            party packages and dedicated party rooms to make your celebration a
+                                            memorable one.
                                         </p>
                                     </div>
                                 </div>
@@ -1106,10 +1112,9 @@
                                 <div id="collapseSix" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p class="paragraph-small">Absolutely! JumpZone is the perfect venue for
-                                            birthday parties, team-building events, and group outings. We offer special
-                                            party packages and dedicated party rooms to make your celebration a
-                                            memorable one.
+                                        <p class="paragraph-small">Outside food and drinks are generally not allowed.
+                                            However, we have a snack bar on-site offering refreshments and snacks for
+                                            purchase.
                                         </p>
                                     </div>
                                 </div>
