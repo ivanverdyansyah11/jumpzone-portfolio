@@ -280,32 +280,32 @@
             <section class="zone section-gap" id="zone">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">Jump into the <span class="light">Ultimate Trampoline Adventure</span> at
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Jump into the <span class="light">Ultimate Trampoline Adventure</span> at
                             JumpZone</h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">The ultimate destination for trampoline enthusiasts. Our Trampoline Zone
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">The ultimate destination for trampoline enthusiasts. Our Trampoline Zone
                             is a thrilling playground where gravity takes a backseat and excitement takes center stage.
                         </p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0 zone-top zone-1">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0 zone-top zone-1" data-aos="fade-left" data-aos-duration="1400">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-1.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title">Open Bounce Zone</h6>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column zone-2 zone-top zone-2">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column zone-2 zone-top zone-2" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-2.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title active">Foam Pit Zone</h6>
                     </div>
-                    <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="1200">
                         <div class="card-default card-top d-flex align-items-end" style="height: 100%">
                             <div class="wrapper">
                                 <h5 class="zone-top-title" style="margin-bottom: 6px">Foam Pit Zone</h5>
@@ -357,7 +357,7 @@
                 </div>
 
                 <div class="row mt-4">
-                    <div class="col-lg-6 mt-4 mt-lg-0 order-last order-lg-1">
+                    <div class="col-lg-6 mt-4 mt-lg-0 order-last order-lg-1" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="1200">
                         <div class="card-default card-bottom d-flex align-items-end" style="height: 100%">
                             <div class="wrapper">
                                 <h5 class="zone-bottom-title" style="margin-bottom: 6px">Dodgeball Arena</h5>
@@ -375,14 +375,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-2 mb-4 mb-md-0 zone-bottom zone-1">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-2 mb-4 mb-md-0 zone-bottom zone-1" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-3.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
                         </div>
                         <h6 class="zone-title active">Dodgeball Arena</h6>
                     </div>
-                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-3 zone-bottom zone-2">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column order-lg-3 zone-bottom zone-2" data-aos="fade-left" data-aos-duration="1400">
                         <div class="wrapper-image rounded" style="margin-bottom: 16px;">
                             <img src="{{ asset('assets/img/zone/zone-4.svg') }}" class="img-fluid w-100"
                                 alt="Zone Image">
