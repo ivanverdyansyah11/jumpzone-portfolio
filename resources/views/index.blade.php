@@ -466,18 +466,18 @@
             <section class="guideline section-gap" id="guideline">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title"><span class="light">Safety First, Fun Always</span>, Our Commitment at
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400"><span class="light">Safety First, Fun Always</span>, Our Commitment at
                             JumpZone</h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Our Safety Guidelines are designed to create a secure environment where
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Our Safety Guidelines are designed to create a secure environment where
                             jumpers of all ages can enjoy the excitement of our trampoline area with confidence.</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">1</h4>
                             </div>
@@ -491,7 +491,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none mt-4">
+                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">2</h4>
                             </div>
@@ -504,7 +504,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4">
+                            class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">3</h4>
                             </div>
@@ -517,7 +517,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-flex d-md-none d-lg-flex">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-flex d-md-none d-lg-flex" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">4</h4>
                             </div>
@@ -530,7 +530,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">5</h4>
                             </div>
@@ -543,7 +543,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-md-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">6</h4>
                             </div>
@@ -557,7 +557,7 @@
                     </div>
 
                     <div class="col-6 col-lg-4 d-none d-md-inline-block">
-                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">2</h4>
                             </div>
@@ -570,7 +570,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">4</h4>
                             </div>
@@ -583,7 +583,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-none d-lg-flex">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-none d-lg-flex" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">5</h4>
                             </div>
@@ -596,7 +596,7 @@
                         </div>
 
                         <div
-                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none">
+                            class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4 d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">6</h4>
                             </div>
@@ -610,7 +610,7 @@
                     </div>
 
                     <div class="col-6 col-lg-4 d-none d-lg-inline-block">
-                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                        <div class="card-default d-flex flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">3</h4>
                             </div>
@@ -622,7 +622,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4">
+                        <div class="card-default d-flex mt-4 flex-lg-column flex-xl-row gap-4 gap-lg-3 gap-xl-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <h4 class="guide-number">6</h4>
                             </div>
