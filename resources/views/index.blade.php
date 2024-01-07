@@ -422,36 +422,36 @@
                 <div class="row align-items-center justify-content-between row-gap">
                     <div class="col-5 ps-xxl-5 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100"
-                            alt="About Banner">
+                            alt="About Banner" data-aos="fade" data-aos-duration="1400">
                     </div>
 
                     <div class="offset-xxl-1 col-lg-7 col-xxl-6 ps-lg-5 ps-xxl-0">
-                        <h2 class="title" style="margin-bottom: 16px;">Discover the <span class="light">Ultimate
+                        <h2 class="title" style="margin-bottom: 16px;" data-aos="fade-right" data-aos-duration="1400">Discover the <span class="light">Ultimate
                                 Trampoline Experience</span> at
                             JumpZone</h2>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 36px;">
-                            <p class="paragraph">The premier destination for thrilling trampoline adventures. At
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">The premier destination for thrilling trampoline adventures. At
                                 JumpZone, we believe in creating an environment where fun knows no limits and
                                 imaginations soar. With our state-of-the-art trampoline area, dedicated staff, and
                                 commitment to safety, we provide an unparalleled experience that will leave you smiling,
                                 laughing, and craving for more.</p>
-                            <p class="paragraph d-none d-md-inline-block">Join us at JumpZone and let us take you on a
+                            <p class="paragraph d-none d-md-inline-block" data-aos="fade-right" data-aos-duration="1400">Join us at JumpZone and let us take you on a
                                 gravity-defying journey filled with excitement, energy, and unforgettable memories.</p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="1400">
                                 <h3 class="fact-value">24+</h3>
                                 <p class="fact-caption">Total Lane Available</p>
                             </div>
-                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                                 <h3 class="fact-value">138+</h3>
                                 <p class="fact-caption">Total Bowling Ball</p>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="600">
                                 <h3 class="fact-value">06+</h3>
                                 <p class="fact-caption">Total Branch Places</p>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="900">
                                 <h3 class="fact-value">562+</h3>
                                 <p class="fact-caption">Satisfied customers</p>
                             </div>
