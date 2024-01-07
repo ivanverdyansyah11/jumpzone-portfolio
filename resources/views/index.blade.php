@@ -718,11 +718,11 @@
             <section class="pricing section-gap" id="pricing">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">Pricing Made Easy, <span class="light">Experience the Value</span> at
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Pricing Made Easy, <span class="light">Experience the Value</span> at
                             JumpZone</h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">JumpZone offers flexible and affordable pricing options designed to suit
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">JumpZone offers flexible and affordable pricing options designed to suit
                             every jumper's needs. Our competitive pricing ensures that the joy of bouncing and
                             experiencing our trampoline area is accessible to all.
                         </p>
@@ -731,7 +731,7 @@
 
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 9px;">Jumpstart Adventure</h6>
                             <h4 class="pricing-price" style="margin-bottom: 13px;">$19.99/ per person</h4>
                             <p class="paragraph-small" style="margin-bottom: 26px;">Kick-start your jumping adventure
@@ -762,7 +762,7 @@
                             <a href="" class="button-pricing">Buy Package</a>
                         </div>
 
-                        <div class="card-default mt-4 d-none d-md-inline-block d-lg-none">
+                        <div class="card-default mt-4 d-none d-md-inline-block d-lg-none" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 9px;">JumpZone Party Package</h6>
                             <h4 class="pricing-price" style="margin-bottom: 13px;">$199.99 for up to 10 guests</h4>
                             <p class="paragraph-small" style="margin-bottom: 26px;">Make your celebration
@@ -795,7 +795,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 9px;">Unlimited Fun Pass</h6>
                             <h4 class="pricing-price" style="margin-bottom: 13px;">$39.99/ per Month</h4>
                             <p class="paragraph-small" style="margin-bottom: 26px;">Take your bouncing experience to
@@ -828,7 +828,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 mt-4 mt-lg-0 d-inline-block d-md-none d-lg-inline-block">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 9px;">JumpZone Party Package</h6>
                             <h4 class="pricing-price" style="margin-bottom: 13px;">$199.99 for up to 10 guests</h4>
                             <p class="paragraph-small" style="margin-bottom: 26px;">Make your celebration
