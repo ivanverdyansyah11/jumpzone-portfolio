@@ -868,10 +868,10 @@
             <section class="testimoni section-gap" id="testimoni">
                 <div class="row align-items-center justify-content-between row-gap">
                     <div class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0">
-                        <h2 class="title" style="margin-bottom: 16px;">JumpZone Delights, <span class="light">Hear
+                        <h2 class="title" style="margin-bottom: 16px;" data-aos="fade-right" data-aos-duration="1400">JumpZone Delights, <span class="light">Hear
                                 What Our Jumpers</span> Have
                             to Say</h2>
-                        <p class="paragraph" style="margin-bottom: 36px">Discover the real experiences and heartfelt
+                        <p class="paragraph" style="margin-bottom: 36px" data-aos="fade-right" data-aos-duration="1400">Discover the real experiences and heartfelt
                             stories of our visitors at
                             JumpZone through our Testimonial section. Dive into a world of bouncing joy as you read the
                             accounts of jumpers who have experienced the excitement and exhilaration firsthand.</p>
@@ -879,7 +879,7 @@
                         <div class="wrapper position-relative">
                             <div class="swiper mySwiper position-relative">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400">
                                         <div class="card-default">
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
@@ -901,7 +901,7 @@
                                                 memories.”</p>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
                                         <div class="card-default">
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
@@ -921,7 +921,7 @@
                                                 are friendly, the facilities are top-notch.”</p>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="600">
                                         <div class="card-default">
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
@@ -942,7 +942,7 @@
                                                 children always have a blast jumping on the trampolines.”</p>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="900">
                                         <div class="card-default">
                                             <div class="testimoni-profile d-flex align-items-center gap-3"
                                                 style="margin-bottom: 14px;">
@@ -971,7 +971,7 @@
 
                     <div class="offset-xxl-1 col-5 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/testimoni-banner.svg') }}" class="img-fluid w-100"
-                            alt="Testimoni Banner">
+                            alt="Testimoni Banner" data-aos="fade" data-aos-duration="1400">
                     </div>
                 </div>
             </section>
