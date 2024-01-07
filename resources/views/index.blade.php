@@ -643,12 +643,12 @@
             <section class="gallery section-gap" id="gallery">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6">
-                        <h2 class="title">JumpZone in Action, <span class="light">Explore the
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">JumpZone in Action, <span class="light">Explore the
                                 Excitement in</span> Our
                             Gallery</h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Get a front-row seat to the excitement and exhilaration as you browse
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Get a front-row seat to the excitement and exhilaration as you browse
                             through a collection of action-packed photos capturing the essence of our trampoline area.
                         </p>
                     </div>
@@ -658,23 +658,23 @@
                     <div class="col-8 col-lg-6 d-none d-md-inline-block">
                         <div class="row">
                             <div class="col-6">
-                                <div class="wrapper-image rounded" style="height: max-content;">
+                                <div class="wrapper-image rounded" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600">
                                     <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
                                         class="image-1 img-fluid w-100" alt="Gallery Image">
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="wrapper-image rounded">
+                                <div class="wrapper-image rounded" data-aos="zoom-in-up" data-aos-duration="600">
                                     <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
                                         class="image-2 img-fluid w-100" alt="Gallery Image">
                                 </div>
-                                <div class="wrapper-image rounded mt-4">
+                                <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                                     <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}"
                                         class="image-5 img-fluid w-100" alt="Gallery Image">
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="wrapper-image rounded mt-4">
+                                <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                                     <img src="{{ asset('assets/img/gallery/gallery-8.svg') }}"
                                         class="image-8 img-fluid w-100" alt="Gallery Image">
                                 </div>
@@ -682,29 +682,29 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3">
-                        <div class="wrapper-image rounded">
+                        <div class="wrapper-image rounded" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
                                 class="image-3 img-fluid w-100" alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4">
+                        <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-6.svg') }}"
                                 class="image-6 img-fluid w-100" alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4">
+                        <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-9.svg') }}"
                                 class="image-9 img-fluid w-100" alt="Gallery Image">
                         </div>
                     </div>
                     <div class="col-3 d-none d-lg-inline-block">
-                        <div class="wrapper-image rounded">
+                        <div class="wrapper-image rounded" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}"
                                 class="image-4 img-fluid w-100" alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4">
+                        <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-7.svg') }}"
                                 class="image-7 img-fluid w-100" alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4">
+                        <div class="wrapper-image rounded mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-10.svg') }}"
                                 class="image-10 img-fluid w-100" alt="Gallery Image">
                         </div>
