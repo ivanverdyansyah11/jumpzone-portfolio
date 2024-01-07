@@ -47,26 +47,26 @@
             <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0" id="hero">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-xxl-6 pe-lg-5 pe-xxl-0">
-                        <p class="subtitle" style="margin-bottom: 20px;">Jump into Fun, One Bounce at a Time</p>
-                        <h1 class="headline" style="margin-bottom: 22px;">Reach for the Skies at <span class="light">
+                        <p class="subtitle" style="margin-bottom: 20px;" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1600">Jump into Fun, One Bounce at a Time</p>
+                        <h1 class="headline" style="margin-bottom: 22px;" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="2400">Reach for the Skies at <span class="light">
                                 JumpZone</span>, The Ultimate
                             <span class="light">Trampoline Experience</span>
                         </h1>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 36px;">
-                            <p class="paragraph">Welcome to JumpZone, the ultimate destination for trampoline
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="2800">Welcome to JumpZone, the ultimate destination for trampoline
                                 enthusiasts of
                                 all ages. Step into a world where you can defy gravity and experience the exhilarating
                                 sensation of soaring through the air. With our state-of-the-art trampolines, foam pits,
                                 and
                                 thrilling attractions, JumpZone offers a trampoline experience like no other.</p>
-                            <p class="paragraph">Get ready to bounce, jump, and laugh as you
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="3000">Get ready to bounce, jump, and laugh as you
                                 explore our
                                 expansive
                                 trampoline area, filled with endless possibilities for fun and adventure.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-center">
-                            <a href="#about" class="button-default">Explore Now</a>
-                            <a href="#pricing" class="button-reverse d-flex align-items-center gap-2">
+                            <a href="#about" class="button-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Explore Now</a>
+                            <a href="#pricing" class="button-reverse d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                 Booking Now
                                 <img src="{{ asset('assets/img/icon/button-arrow-icon.svg') }}" alt="Button Arrow Icon">
                             </a>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="offset-xxl-1 col-5 ps-xxl-5 d-none d-lg-inline-block">
                         <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100"
-                            alt="Hero Banner">
+                            alt="Hero Banner" data-aos="fade" data-aos-duration="1400" data-aos-delay="1000">
                     </div>
                 </div>
             </section>
