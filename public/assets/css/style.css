@@ -29,6 +29,15 @@
     transition: 250ms;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 h1,
 h2,
 h3,
@@ -407,7 +416,7 @@ h6 {
     .headline {
         font-size: 4rem;
     }
-    
+
     .title {
         font-size: 2.5rem;
     }
@@ -420,7 +429,7 @@ h6 {
     .headline {
         font-size: 3.5rem;
     }
-    
+
     .title {
         font-size: 2.5rem;
     }
@@ -450,7 +459,7 @@ h6 {
     .headline {
         font-size: 3rem;
     }
-    
+
     .title {
         font-size: 2.25rem;
     }
